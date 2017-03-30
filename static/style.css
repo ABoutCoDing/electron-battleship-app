@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+}
+
+div#board {
+  position: relative;
+  width: 550px;
+  height: 550px;
+  margin: auto;
+  background: url("../static/board.jpg") no-repeat;
+}
+
+div#messageArea {
+  position: absolute;
+  top: 15px;
+  left: 85px;
+  color: rgb(83, 175, 19);
+}
+
+div#restartButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: rgb(83, 175, 19);
+}
+
+div#captureButton {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  color: rgb(83, 175, 19);
+}
+
+table {
+  position: absolute;
+  left: 100px;
+  top: 59px;
+  border-spacing: 0px;
+}
+
+td {
+  width: 54px;
+  height: 54px;
+}
+
+.hit {
+  background: url("../static/ship.png") no-repeat center center;
+}
+
+.miss {
+  background: url("../static/miss.png") no-repeat center center;
+}
